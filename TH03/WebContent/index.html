@@ -4,11 +4,33 @@
 <meta charset="utf-8">
 <title>Thực hành 03</title>
 </head>
+<style>
+div
+{
+	background-color:#218b9E;
+	width:300px;
+	heigh:250px;
+}
+</style>
 <body>
-<form action="servle1" method="post">
-         User name: <input type="text" name="user"><br>
-         Password: 	<input type="password" name="pass"><br>         
-         <input type="submit" value="Login">     
+<form action="servlet1" method="post">
+<div>
+<table align="center">
+	<tr>
+		<td>UserNAme:</td>
+		<td class="user"><input type="text" name="user"></td>
+	</tr>
+	<tr>
+		<td>PassWord:</td>
+		<td><input type="password" name="pass"></td>
+	</tr>
+	<tr >
+		<td colspan="2" align="center">
+			<Button>Login</Button>
+		</td>
+	</tr>
+</table>   
+</div>     
 </form>
 </body>
 </html>
